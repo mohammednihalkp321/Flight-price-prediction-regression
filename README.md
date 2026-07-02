@@ -263,26 +263,27 @@ The Linear Regression model achieved:
 
 ---
 
-# 📁 Project Structure
+## 📁 Project Structure
 
-```
-Flight-Price-Prediction/
+```text
+Flight-price-prediction-regression/
 │
 ├── data/
-│   └── Flight_Price_Prediction_Dataset.csv
+│   └── Flight_Price_Prediction.csv
+│
+├── models/
+│   ├── linear_regression_model.pkl
+│   ├── standard_scaler.pkl
+│   ├── holiday_label_encoder.pkl
+│   └── feature_columns.pkl
 │
 ├── notebooks/
-│   └── project_analysis.ipynb
+│   └── Flight_Price_Prediction.ipynb
 │
-├── model/
-│   ├── linear_model.pkl
-│   └── scaler.pkl
-│
-├── streamlit.py
-│
+├── app.py
+├── requirements.txt
 ├── README.md
-│
-└── requirements.txt
+└── .gitignore
 ```
 
 ---
